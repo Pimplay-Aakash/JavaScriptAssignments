@@ -1,0 +1,79 @@
+[
+    {
+      "id": "1",
+      "name": "Parent 1",
+      "display": true,
+      "children": [
+        {
+          "id": "1.1",
+          "name": "Child1",
+          "display": true,
+          "children": [
+            {
+              "id": "1.1.1",
+              "name": "Grand child 1",
+              "children": [
+                {
+                  "id": "1.1.1.1",
+                  "name": "Grand Grand child 1",
+                  "display": false,
+                  "children": []
+                },
+                {
+                  "id": "1.1.1.2",
+                  "name": "Grand Grand child 2",
+                  "display": true,
+                  "children": []
+                },
+                {
+                  "id": "1.1.1.3",
+                  "name": "Grand Grand child 3",
+                  "display": true,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "1.1.2",
+              "name": "Grand child 2",
+              "display": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "name": "Child2",
+          "display": true,
+          "children": [
+            {
+              "id": "1.2.1",
+              "name": "Grand child 1",
+              "display": false,
+              "children": [
+                {
+                  "id": "1.2.1.1",
+                  "name": "Grand Grand child 1",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "1.2.2",
+              "name": "Grand child 2",
+              "display": true,
+              "children": [
+                {
+                  "id": "1.2.2.1",
+                  "name": "Grand Grand child 1",
+                  "display": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
